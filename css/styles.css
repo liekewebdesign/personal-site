@@ -1,0 +1,155 @@
+/**************************TAG SELECTORS**************************/
+body {
+  color: #40514E;
+  background-color: #FCF9EA;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  color: #F8A978;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  color: #F8A978;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #FFC5A1;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  color: #FCF9EA;
+  margin: 10px 20px;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #F8A978;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  border: dotted #FFC5A1 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+/**************************CLASS SELECTORS**************************/
+.top-container {
+  position: relative;
+  padding-top: 100px;
+}
+
+.sunset-img {
+  padding-top: 50px;
+  width: 25%;
+  height: 25%;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.profile-avatar {
+  width: 15%;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+
+.skill-webdesign-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.skill-va-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.contact-me {
+  margin-bottom: 100px;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.button {
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   color: #FCF9EA;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 20px;
+   font-weight: 100;
+   padding: 20px;
+   background-color: #BADFDB;
+   border: solid #BADFDB 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.button:hover {
+   background: #FFC5A1;
+   border: solid #FFC5A1 1px;
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   text-decoration: none;
+}
+
+.bottom-container {
+  background-color: #BADFDB;
+  padding: 50px 0 20px;
+}
+
+.footor-link {
+  color: #BADFDB;
+}
+
+.copyright {
+  color: #FCF9EA;
+  padding-top: 20px;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+
+
+/**************************ID SELECTORS**************************/
+#function {
+  font-weight: normal;
+}
+
+
+
+/**************************LINKS**************************/
+/* colorpalette: https://colorhunt.co/palette/fef5edd3e4cdadc2a999a799 */
